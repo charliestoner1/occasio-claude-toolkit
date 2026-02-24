@@ -89,6 +89,24 @@
 - No client components unless they need interactivity
 - Aim for 95+ Lighthouse score
 
+### Handling Feedback — Diagnose Before Prescribing
+
+**When the user says they don't like something, DO NOT immediately change it.** Instead, ask 3-5 targeted questions to understand *why* before touching any code.
+
+Questions to consider asking:
+1. **What specifically feels off?** — Is it the layout, spacing, color, typography, motion, or overall vibe?
+2. **Is it too much or not enough?** — Too busy vs too empty, too bold vs too subtle, too fast vs too slow?
+3. **Does it remind you of something you dislike?** — Generic AI look, cheap templates, a specific competitor, clipart energy?
+4. **What's the vibe you want instead?** — Reference a site, a brand, an adjective, a mood?
+5. **Does it clash with the brand?** — Too playful for a serious product, too corporate for a creative brand?
+
+**Why this matters:** "I don't like the hero" could mean 20 different things. Changing the wrong thing wastes a round of iteration. Two minutes of questions saves twenty minutes of rework.
+
+**When to skip the questions:**
+- The user gives specific instructions ("make the headline smaller", "remove the gradient")
+- The user says "just" or "quick" — they want a fast change, not a design consultation
+- The feedback is obviously directional ("too much whitespace", "needs more contrast")
+
 ## Available Skills — Use These Proactively
 
 Read `PROMPTS.md` for detailed examples. Suggest these to the user when relevant.

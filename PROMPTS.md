@@ -31,6 +31,55 @@ Step 3: /perf-audit                 → checks performance before deploy
 
 ---
 
+## Giving Feedback — How to Iterate Effectively
+
+Claude is trained to **diagnose before prescribing** — when you say you don't like something, it'll ask questions to understand why before changing code. This prevents wasted iteration cycles.
+
+### Vague feedback (Claude will ask questions first)
+```
+I don't like the hero section
+```
+```
+This doesn't feel right
+```
+```
+The pricing page looks off
+```
+Claude will ask what specifically feels wrong — layout, color, spacing, vibe — before making changes.
+
+### Specific feedback (Claude acts immediately)
+```
+Make the headline smaller and left-aligned
+```
+```
+Too much whitespace between the features and testimonials
+```
+```
+The CTA button color doesn't match our brand — use #2563EB
+```
+
+### Comparative feedback (most effective)
+```
+I want the hero to feel more like Linear.app — minimal, precise, lots of breathing room.
+Right now it feels too busy.
+```
+```
+The features section looks like a generic template. I want it to feel more editorial,
+like the way Stripe presents their features with large visuals and short copy.
+```
+
+### Mood-based feedback
+```
+This feels too corporate. We're a creative agency — it should feel bold and energetic.
+```
+```
+The animations are too aggressive. I want something calmer, more Apple-like.
+```
+
+**Tip:** The more context you give about *why* you don't like something, the faster Claude gets to the right solution. "I don't like it" takes 2-3 rounds. "It feels too generic and template-y, I want something more editorial" takes 1 round.
+
+---
+
 ## Landing Page — Full Build
 
 ### Start from scratch

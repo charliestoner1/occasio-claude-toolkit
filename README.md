@@ -454,6 +454,18 @@ Or the all-in-one:
 /ship-it
 ```
 
+### 8. Give effective feedback when you don't like something
+Claude is trained to **ask diagnostic questions** before making changes when you give vague feedback. This is intentional — it prevents wasting time changing the wrong thing.
+
+**To get the fastest iteration:**
+- Say *what* feels off and *why*: "The hero feels too busy — too many elements competing for attention"
+- Compare to something: "I want this to feel more like Stripe's homepage — clean, focused, lots of whitespace"
+- Be directional: "Less corporate, more creative" or "Needs more energy" or "Tone down the animations"
+
+**If you just want something changed fast**, be specific: "Make the headline 2xl, left-align it, remove the gradient." Claude will skip the questions and act immediately.
+
+See the [Giving Feedback section in PROMPTS.md](PROMPTS.md#giving-feedback--how-to-iterate-effectively) for more examples.
+
 ---
 
 ## File Reference
