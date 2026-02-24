@@ -1,0 +1,116 @@
+# Brand Brief
+
+> Fill this out and save it in your project root. Reference it in your CLAUDE.md
+> or paste it directly into Claude Code when starting the landing page build.
+
+## Company
+
+- **Name**: [Company name]
+- **Tagline**: [One-liner, e.g., "AI-powered scheduling for modern teams"]
+- **Industry**: [e.g., SaaS, fintech, e-commerce, health tech, agency]
+- **Founded**: [Year]
+- **Website** (current): [URL if exists]
+
+## Target Audience
+
+- **Primary user**: [e.g., startup founders, marketing managers, freelancers]
+- **Company size**: [e.g., 1-50 employees, enterprise, individual]
+- **Pain point**: [What problem does your product solve?]
+- **Buying trigger**: [What makes someone decide to sign up/buy?]
+
+## Brand Personality
+
+Pick 3-5 adjectives that describe your brand voice:
+- [ ] Professional
+- [ ] Playful
+- [ ] Bold / Disruptive
+- [ ] Warm / Approachable
+- [ ] Minimal / Clean
+- [ ] Luxurious / Premium
+- [ ] Technical / Developer-focused
+- [ ] Trustworthy / Enterprise-ready
+- [ ] Creative / Artistic
+- [ ] Energetic / Fast-paced
+
+**Brand voice in one sentence**: [e.g., "Confident and clear, like talking to a smart friend who happens to be an expert."]
+
+## Visual Identity
+
+### Colors
+- **Primary**: [hex code + name, e.g., #2563EB Electric Blue]
+- **Secondary**: [hex code]
+- **Accent**: [hex code — used for highlights, badges, CTAs]
+- **Background**: [light (#FFFFFF) / dark (#0A0A0A) / custom]
+- **Text**: [primary text color]
+
+### Typography
+- **Headings**: [font name, e.g., "Inter", "Clash Display", "Playfair Display"]
+- **Body**: [font name]
+- **Style**: [tight tracking + bold = modern tech | serif + light = editorial | rounded + medium = friendly]
+
+### Visual Style
+- [ ] Flat / minimal illustrations
+- [ ] Photography-heavy (real product shots)
+- [ ] Abstract gradients / shapes
+- [ ] 3D elements
+- [ ] Icon-driven
+- [ ] Data visualization / dashboards
+- [ ] Video / motion-heavy
+
+### Existing Assets
+- Logo file: [path or "needs to be created"]
+- Brand guidelines PDF: [path or "none"]
+- Product screenshots: [path or "needs to be captured"]
+- Team photos: [path or "none"]
+
+## Competitors
+
+List 2-3 competitors and what you think of their sites:
+1. [competitor.com] — [what's good / what's bad about their site]
+2. [competitor.com] — [what's good / what's bad]
+3. [competitor.com] — [what's good / what's bad]
+
+## Inspiration
+
+Sites whose design you admire (don't have to be competitors):
+1. [site.com] — [what you like: layout, typography, animations, color]
+2. [site.com] — [what you like]
+3. [site.com] — [what you like]
+
+## Landing Page Goals
+
+- **Primary CTA**: [e.g., "Start free trial", "Book a demo", "Join waitlist"]
+- **Secondary CTA**: [e.g., "Learn more", "View pricing", "Watch video"]
+- **Key metric**: [What does success look like? Signups, demo bookings, email captures?]
+- **Must-have sections**: [e.g., hero, features, pricing, testimonials, FAQ]
+- **Nice-to-have sections**: [e.g., comparison table, integrations grid, team section]
+
+## Content
+
+### Headlines (draft — Claude can refine these)
+- Hero: [e.g., "Build products your customers actually want"]
+- Features: [e.g., "Everything you need, nothing you don't"]
+- CTA: [e.g., "Ready to get started?"]
+
+### Social Proof
+- Customer count: [e.g., "Trusted by 2,000+ teams"]
+- Notable clients: [list logos to display]
+- Testimonials: [paste 2-3 real quotes with name + title + company]
+- Awards/press: [any mentions worth highlighting]
+
+### Features (3-6 key selling points)
+1. [Feature name] — [one-line description]
+2. [Feature name] — [one-line description]
+3. [Feature name] — [one-line description]
+
+## Technical Requirements
+
+- [ ] Mobile responsive (required)
+- [ ] Dark mode support
+- [ ] Analytics (Google Analytics, Plausible, etc.)
+- [ ] SEO optimized (meta tags, OG images, structured data)
+- [ ] Cookie consent banner
+- [ ] Contact form / email capture
+- [ ] Blog section
+- [ ] Multi-language support
+- [ ] Accessibility (WCAG AA)

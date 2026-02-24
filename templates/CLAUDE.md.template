@@ -1,0 +1,97 @@
+# Project Guidelines
+
+> Copy this file to your project root as `CLAUDE.md` and fill in the brackets.
+> Claude reads this every session — the more specific you are, the better the output.
+
+## Overview
+
+[Company name] landing page. [One sentence about what the company does and who it's for.]
+
+## Tech Stack
+
+- Framework: Next.js 16 (App Router)
+- Styling: Tailwind CSS v4
+- Animation: Motion (Framer Motion)
+- Fonts: [e.g., Inter + Playfair Display via next/font/google]
+- Deployment: Vercel
+- Package manager: npm
+
+## Design Direction
+
+### Brand Identity
+- **Primary color**: [e.g., #2563EB (blue) — used for CTAs and key actions]
+- **Accent color**: [e.g., #F59E0B (amber) — used sparingly for highlights]
+- **Background**: [e.g., white / dark (#0A0A0A) / gradient]
+- **Typography**: [e.g., clean and modern / editorial and bold / playful]
+- **Overall mood**: [e.g., trustworthy and professional / bold and disruptive / warm and approachable]
+
+### Reference Sites
+[Paste 2-3 URLs of sites whose design you admire and say what you like about each]
+- [site1.com] — [what you like: layout, typography, animations, etc.]
+- [site2.com] — [what you like]
+
+### Brand Assets
+- Logo: [path, e.g., /public/logo.svg]
+- Favicon: [path]
+- Hero image/video: [path or "generate with /motion-graphics" or "use fal MCP"]
+
+## Page Structure
+
+[Define the sections you want. Remove or add as needed.]
+
+1. **Nav** — logo left, links center, CTA button right. Sticky on scroll.
+2. **Hero** — [headline + subheadline + CTA + visual. Full viewport height.]
+3. **Social proof** — [logo bar of clients/partners, or testimonial quotes]
+4. **Features/Benefits** — [3-4 key selling points with icons or visuals]
+5. **How it works** — [3-step process or workflow diagram]
+6. **Testimonials** — [customer quotes with photos and titles]
+7. **Pricing** — [if applicable — tiers or single plan]
+8. **CTA section** — [final conversion push — headline + form or button]
+9. **Footer** — [links, social icons, legal]
+
+## Content
+
+### Headline Options
+[Give Claude 2-3 headline directions to choose from or riff on]
+- Option A: "[e.g., Ship faster with AI-powered workflows]"
+- Option B: "[e.g., The platform that turns ideas into products]"
+
+### Key Messages
+- [Core value prop in one sentence]
+- [Secondary differentiator]
+- [Social proof point: "Trusted by 500+ teams" etc.]
+
+## Conventions
+
+### Code Style
+- Use TypeScript for all files
+- Components in `components/`, pages in `app/`
+- One component per file, named exports
+- Use `cn()` from `lib/utils` for conditional classes (clsx + twMerge)
+
+### Component Patterns
+- Mobile-first responsive design (default = mobile, `md:` = desktop)
+- 44px minimum touch targets on interactive elements
+- Use CSS variables for colors — enables easy theme switching later
+- Prefer `gap` over margin for spacing between siblings
+- Images: use `next/image` with proper width/height/alt
+
+### Animation Rules
+- Subtle entrance animations (fade + 12px translate, 300ms)
+- No animation-on-scroll unless specifically requested
+- Respect `prefers-reduced-motion`
+- Use Motion (Framer Motion) for interactive animations
+- CSS transitions for hover/focus states
+
+### Performance
+- All images optimized (WebP, proper sizing, lazy load below fold)
+- Fonts loaded via `next/font` (no layout shift)
+- No client components unless they need interactivity
+- Aim for 95+ Lighthouse score
+
+## Don'ts
+- No generic AI aesthetic (avoid default gradients, excessive glow, generic stock feel)
+- No placeholder text in final output — write real copy or ask me for it
+- No `text-white` on themed backgrounds — use CSS variables
+- No inline styles — Tailwind only
+- No lorem ipsum — write contextual placeholder copy if real copy isn't provided
