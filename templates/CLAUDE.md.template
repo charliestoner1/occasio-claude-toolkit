@@ -89,6 +89,41 @@
 - No client components unless they need interactivity
 - Aim for 95+ Lighthouse score
 
+## Available Skills — Use These Proactively
+
+Read `PROMPTS.md` for detailed examples. Suggest these to the user when relevant.
+
+### Design & Build
+- `/landing-page full` — build the entire page section by section (or `/landing-page hero` for one section)
+- `/frontend-design` — **auto-activates** on any UI task. No need to invoke manually.
+- `/ui-ux-pro-max` — suggest when the user needs design direction (styles, palettes, fonts)
+
+### Animation & Visual
+- `/animate <description>` — Framer Motion, CSS keyframes. Suggest after building a section to add polish.
+- `/3d-scene <description>` — Three.js / R3F. Suggest for hero elements, product showcases.
+- `/motion-graphics <description>` — Lottie, SVG animation, Canvas. Suggest for logos, counters, particles.
+
+### Quality (suggest before deploying)
+- `/perf-audit` — Lighthouse, bundle size, images, Core Web Vitals
+- `/a11y-audit` — ARIA, keyboard nav, contrast, screen reader
+- `/review-changes` — code review against all conventions
+- `/ship-it` — runs everything in parallel (build + tests + review + audit)
+
+### Workflow
+- `/gsd:new-project` — for complex multi-phase builds; creates roadmap + phased execution
+- `/gsd:quick <task>` — one-off task with atomic commits
+
+### Integration
+- `/openai-figma` — auto-activates on Figma URLs. Pulls designs for code conversion.
+- **fal MCP** — use for AI image generation when the user needs hero images, illustrations, backgrounds
+- **context7 MCP** — auto-looks up latest library docs. Always use current APIs.
+
+### Skill Chaining Pattern
+Build → Animate → Audit:
+1. Build the section (auto-activates `/frontend-design`)
+2. `/animate` the section for entrance animations or interactions
+3. `/perf-audit` + `/a11y-audit` before deploying
+
 ## Don'ts
 - No generic AI aesthetic (avoid default gradients, excessive glow, generic stock feel)
 - No placeholder text in final output — write real copy or ask me for it
