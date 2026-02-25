@@ -44,7 +44,20 @@
 | `/animate <target> [--css-only\|--framer]` | Framer Motion, CSS keyframes, micro-interactions |
 | `/3d-scene <target>` | Three.js / React Three Fiber / WebGL |
 | `/motion-graphics <target>` | Lottie, animated SVGs, Canvas, particles |
+| `/generative-art <target> [--canvas\|--css\|--webgl]` | Particle fields, flow fields, noise textures, procedural backgrounds |
 | `/openai-figma` | Auto on Figma URLs — design-to-code via Figma MCP |
+
+### Research & Planning
+| Command | What It Does |
+|---------|-------------|
+| `/research <topic> [--libs\|--compare\|--deep\|--save]` | Deep web research — libraries, patterns, services, APIs |
+| `/ux-research <topic> [--competitors\|--patterns\|--deep\|--hospitality]` | UX-focused research — competitors, design galleries, UX articles |
+| `/quick-plan <feature> [--research\|--no-research]` | Lightweight feature planning — tasks, files, gotchas, verification |
+
+### Feedback
+| Command | What It Does |
+|---------|-------------|
+| `/roast` | Intake when user hates something — asks targeted questions, then fixes |
 
 ### Feature Flags
 | Command | What It Does |
